@@ -108,6 +108,7 @@ class BankAccount {
         } while (option != 'E');
 
         System.out.println("Thank you, come again!!");
+        scanner.close();
     }
 
 }
