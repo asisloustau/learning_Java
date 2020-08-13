@@ -12,6 +12,8 @@ public class Histogram {
         // declare scanner variable -null before reading data
         Scanner data = null;
         // Declare array that will contain int value counts for values 0...9
+        // We could also, instead of ArrayList, use:
+        // Integer[] count = {0,0,0,0,0,0,0,0,0,0};
         ArrayList<Integer> count;
         // Declare int to use as index in array
         Integer idx;
